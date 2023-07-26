@@ -40,23 +40,23 @@ The application will start, and you can access it at http://localhost:8080.
 
 ### Project Structure
 The project follows the following directory structure:
-.
-│── pkg   
-        ├── config
-│           └── app.go
-        ├── controllers
-│           └── book-controller.go
-        ├── models
-│           └── book.go
-        ├── routes
-│           └── bookstore-routes.go
-        ├── utils
-│           └── utils.go
-│── cmd
-│       └── main.go
-├── go.mod
-├── go.sum
-└── README.md
+<br />.
+<br /> pkg
+<br /> ─── config
+<br /> ───────── app.go
+<br /> ─── controllers
+<br /> ───────── book-controller.go
+<br /> ─── models
+<br /> ───────── book.go
+<br /> ─── routes
+<br /> ───────── bookstore-routes.go
+<br /> ─── utils
+<br /> ───────── utils.go
+<br /> cmd
+<br /> ─── main.go
+<br /> go.mod
+<br /> go.sum
+<br /> README.md
 
 * config: Contains configuration files for the database and other settings.
 * controllers: Defines the application's controllers, handling different HTTP endpoints.
